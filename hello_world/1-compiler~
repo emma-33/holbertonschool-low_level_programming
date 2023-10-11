@@ -1,0 +1,2 @@
+#!/bin/bash
+gcc filename.c -c –o filename
