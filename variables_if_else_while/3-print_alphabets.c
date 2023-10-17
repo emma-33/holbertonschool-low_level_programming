@@ -7,14 +7,13 @@
 int main(void)
 {
 	char alphabet = 'a';
+	char uppercase_alphabet = 'A';
 
 	while (alphabet <= 'z')
 	{
 		putchar(alphabet);
 		alphabet++;
 	}
-
-	char uppercase_alphabet = 'A';
 
 	while (uppercase_alphabet <= 'Z')
 	{
