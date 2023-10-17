@@ -4,3 +4,5 @@ Script 2 : prints the alphabet in lowercase followed by a new line
 Script 3 : prints the alphabet in lowercase and in uppercase followed by a new line
 Script 4 : prints the alphabet without e and q
 Script 5 : prints all single digit numbers of base 10 starting from 0, followed by a new line
+Script 6 : like 5 but with putchar
+Script 7 : prints the lowercase alphabet in reverse, followed by a new line
