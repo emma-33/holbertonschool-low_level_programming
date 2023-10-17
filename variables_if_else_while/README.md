@@ -3,3 +3,4 @@ Script 1 : assigns a random number to n each time it is executed, prints the las
 Script 2 : prints the alphabet in lowercase followed by a new line
 Script 3 : prints the alphabet in lowercase and in uppercase followed by a new line
 Script 4 : prints the alphabet without e and q
+Script 5 : prints all single digit numbers of base 10 starting from 0, followed by a new line
