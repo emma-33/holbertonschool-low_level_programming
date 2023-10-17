@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - prints all single digits from 0 to 10
+ * main - prints all single digits from 0 to 9
  * followed by a new line
  * Return: 0
  */
