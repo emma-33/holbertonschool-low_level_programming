@@ -9,13 +9,13 @@ int main(void)
 {
 	int digits = '0';
 
-	while (digits <= '9')
+	while (digits <= '8')
 	{
 		putchar(digits);
 		putchar(',');
 		putchar(' ');
 		digits++;
 	}
-	putchar('\n');
+	putchar('9');
 	return (0);
 }
