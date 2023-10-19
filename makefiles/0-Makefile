@@ -1,0 +1,2 @@
+all : school
+	cat school.c
