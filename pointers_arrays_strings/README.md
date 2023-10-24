@@ -6,3 +6,5 @@ Function 4 : prints a string, in reverse, followed by a new line
 Function 5 : reverses a string
 Function 6 : prints every other character of a string, starting with the first character, followed by a new line
 Function 7 : prints half of a string, followed by a new line
+Function 8 : prints n elements of an array of integers, followed by a new line
+Function 9 : copies the string pointed to by src, including the terminating null byte (\0), to the buffer pointed to by dest
