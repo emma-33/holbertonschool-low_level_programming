@@ -11,3 +11,4 @@ Function 9 : copies the string pointed to by src, including the terminating null
 Function 10 : converts a string to an integer
 ----------------------
 Function 0 : concatenates two strings
+Function 1 : concatenates two strings with n bytes of src
