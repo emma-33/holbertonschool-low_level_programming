@@ -20,3 +20,4 @@ Function 6 : capitalizes all words of a string
 Function 7 : encodes a string into 1337
 ----------------------
 Function 0 : fills memory with a constant byte
+Function 1 : copies memory area
