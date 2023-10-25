@@ -17,3 +17,4 @@ Function 3 : compares two strings
 Function 4 : reverses the content of an array of integers
 Function 5 : changes all lowercase letters of a string to uppercase
 Function 6 : capitalizes all words of a string
+Function 7 : encodes a string into 1337

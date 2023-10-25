@@ -1,0 +1,10 @@
+#include <stdio.h>
+#include "main.h"
+
+/**
+ * *leet - encodes a string to 1337
+ *
+ * @s: string to encode
+ *
+ * Return: encoded string
+ */
