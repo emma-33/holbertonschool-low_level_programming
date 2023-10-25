@@ -13,3 +13,4 @@ Function 10 : converts a string to an integer
 Function 0 : concatenates two strings
 Function 1 : concatenates two strings with n bytes of src
 Function 2 : copies a string
+Function 3 : compares two strings
