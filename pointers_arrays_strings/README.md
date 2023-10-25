@@ -15,3 +15,4 @@ Function 1 : concatenates two strings with n bytes of src
 Function 2 : copies a string
 Function 3 : compares two strings
 Function 4 : reverses the content of an array of integers
+Function 5 : changes all lowercase letters of a string to uppercase
