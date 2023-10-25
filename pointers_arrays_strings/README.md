@@ -14,3 +14,4 @@ Function 0 : concatenates two strings
 Function 1 : concatenates two strings with n bytes of src
 Function 2 : copies a string
 Function 3 : compares two strings
+Function 4 : reverses the content of an array of integers
