@@ -26,3 +26,4 @@ Function 3 : gets the length of a prefix substring
 Function 4 : searches a string for any of a set of bytes
 Function 5 : locates a substring
 Function 6 : prints a chessboard
+Function 7 : prints the sum of the two diagonals of a square matrix of integers
