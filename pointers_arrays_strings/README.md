@@ -22,3 +22,4 @@ Function 7 : encodes a string into 1337
 Function 0 : fills memory with a constant byte
 Function 1 : copies memory area
 Function 2 : locates a character in a string
+Function 3 : gets the length of a prefix substring
