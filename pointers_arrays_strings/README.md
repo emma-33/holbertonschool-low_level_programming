@@ -23,3 +23,4 @@ Function 0 : fills memory with a constant byte
 Function 1 : copies memory area
 Function 2 : locates a character in a string
 Function 3 : gets the length of a prefix substring
+Function 4 : searches a string for any of a set of bytes
