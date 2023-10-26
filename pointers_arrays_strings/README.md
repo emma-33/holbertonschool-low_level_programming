@@ -25,3 +25,4 @@ Function 2 : locates a character in a string
 Function 3 : gets the length of a prefix substring
 Function 4 : searches a string for any of a set of bytes
 Function 5 : locates a substring
+Function 6 : prints a chessboard
