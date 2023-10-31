@@ -1,0 +1,1 @@
+Program 0 : prints its name followed by a new line
