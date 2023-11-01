@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * main - add two numbers
+ * main - add two positive numbers
  *
  * @argc: int of arguments
  * @argv: array of arguments
@@ -14,28 +14,31 @@
 
 int main(int argc, char *argv[])
 {
-	int i, j;
-	int sum = 0;
+	int sum, num, i, j, k;
 
-	if (argc < 2)
-	{
-		printf("0\n");
-		return (0);
-	}
+	sum = 0;
 
 	for (i = 1; i < argc; i++)
 	{
 		for (j = 0; argv[i][j] != '\0'; j++)
 		{
-			if (argv[i][j] < '0' || argv[i][j] > '9')
+			if (argv[i][j] > '9' || argv[i][j] < '0')
 			{
-				printf("Error\n");
+				puts("Error");
 				return (1);
 			}
 		}
-		sum += atoi(argv[i]);
 	}
-			
-		printf("%d\n", sum);
-		return (0);
+
+	for (k = 1; k < argc; k++)
+	{
+		num = _atoi(argv[k]);
+		if (num >= 0)
+		{
+			sum += num;
+		}
+	}
+
+	printf("%d\n", sum);
+	return (0);
 }
