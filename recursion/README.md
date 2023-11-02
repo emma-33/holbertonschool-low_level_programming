@@ -5,3 +5,4 @@ Function 3 : returns the factorial of a given number
 Function 4 : returns the value of x raised to the power of y
 Function 5 : returns the natural square root of a number
 Function 6 : returns 1 if the input integer is a prime number, otherwise return 0
+Function 7 : returns 1 if a string is a palindrome and 0 if not
