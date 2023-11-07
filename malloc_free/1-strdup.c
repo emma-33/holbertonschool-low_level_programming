@@ -8,7 +8,7 @@
  *
  * @str: string to duplicate
  *
- * Return: pointer to duplicate string or null if 
+ * Return: pointer to duplicate string or null if
  * insufficient memory was available
  */
 
@@ -25,7 +25,7 @@ char *_strdup(char *str)
 
 	while (str[i] != '\0')
 	{
-	     i++;
+		i++;
 	}
 	str2 = malloc(sizeof(char) * (i + 1));
 
@@ -33,7 +33,7 @@ char *_strdup(char *str)
 	{
 		return (NULL);
 	}
-	
+
 	while (str[j] != '\0')
 	{
 		str2[j] = str[j];
@@ -41,5 +41,4 @@ char *_strdup(char *str)
 	}
 	str2[j + 1] = 0;
 	return (str2);
-	
 }
