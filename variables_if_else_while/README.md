@@ -8,3 +8,4 @@ Script 6 : like 5 but with putchar
 Script 7 : prints the lowercase alphabet in reverse, followed by a new line
 Script 8 : prints all the numbers of base 16 in lowercase, followed by a new line
 Script 9 : prints all possible combinations of single-digit numbers
+Script 10 : prints all possible different combinations of two digits
