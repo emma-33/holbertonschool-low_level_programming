@@ -1,0 +1,1 @@
+Structure 0 : new type for name, age and owner of a dog
