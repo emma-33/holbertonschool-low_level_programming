@@ -3,20 +3,21 @@
 
 /**
  * struct dog - informations for a dog
- * @a: name of the dog
- * @b: age of the dog
- * @c: owner of the dog
+ * @name: pointer to the name of the dog
+ * @age: age of the dog
+ * @owner: pointer to the owner of the dog
  *
  * Description: name of the dog, its age and its owner
  */
 
-typedef struct dog
+struct dog
 {
 	char *name;
 	float age;
 	char *owner;
-} dog;
+};
 
+typedef struct dog dog_t;
 void init_dog(struct dog *d, char *name, float age, char *owner);
 void print_dog(struct dog *d);
 
