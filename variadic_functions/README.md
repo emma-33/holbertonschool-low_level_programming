@@ -1,0 +1,1 @@
+Function 1 : return the sum of all its parameters
