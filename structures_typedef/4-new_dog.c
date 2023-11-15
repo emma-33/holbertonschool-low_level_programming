@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include <stdlib.h>
 #include "dog.h"
 
@@ -15,7 +14,6 @@
 char *_strdup(char *str)
 {
 	unsigned int i = 0;
-
 	unsigned int j = 0;
 
 	char *str2;
@@ -24,7 +22,6 @@ char *_strdup(char *str)
 	{
 		return (NULL);
 	}
-
 	while (str[i] != '\0')
 	{
 		i++;
@@ -41,7 +38,7 @@ char *_strdup(char *str)
 		str2[j] = str[j];
 		j++;
 	}
-	str2[j + 1] = 0;
+	str2[j] = 0;
 	return (str2);
 }
 
@@ -58,7 +55,6 @@ dog_t *new_dog(char *name, float age, char *owner)
 {
 	dog_t *new;
 	char *new_name;
-
 	char *new_owner;
 
 	new = malloc(sizeof(dog_t));
