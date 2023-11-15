@@ -1,0 +1,7 @@
+#!/bin/bash
+git clone https://github.com/hs-hq/Betty.git
+cd Betty
+./install.sh
+cat betty.sh > betty
+chmod a+x betty
+mv betty /bin/
