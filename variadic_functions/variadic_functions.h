@@ -4,15 +4,15 @@
 #include <stdio.h>
 
 /**
- * struct print - parameters to check and print
- * @print: type
- * @f: fonction to send to
+ * struct method - parameters to check and print
+ * @letter: type
+ * @print: fonction to send to
 */
-typedef struct print
+typedef struct method
 {
-char *print;
-void (*f)(va_list list);
-} print_t;
+char letter;
+void (*print)(va_list list);
+} choice;
 
 int _putchar(char c);
 int sum_them_all(const unsigned int n, ...);
