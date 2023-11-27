@@ -1,5 +1,3 @@
-#include <stdio.h>
-#include <stdlib.h>
 #include "lists.h"
 
 /**
@@ -15,16 +13,16 @@ current = h;
 
 while (current != NULL)
 {
-    if (current->str == NULL)
-    {
-        printf("[0] (nil)\n");
-    }
-    else
-    {
-        printf("[%d] %s\n", current ->len, current->str);
-    }
-    current = current->next;
-    count++;
+if (current->str == NULL)
+{
+printf("[0] (nil)\n");
 }
-return(count);
+else
+{
+printf("[%d] %s\n", current->len, current->str);
+}
+current = current->next;
+count++;
+}
+return (count);
 }
