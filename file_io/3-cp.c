@@ -30,7 +30,7 @@ int main(int argc, char *argv[])
 	}
 	from = open(argv[1], O_RDONLY);
 	r = read(from, buffer, 1024);
-	to = open(argv[2], O_CREAT | O_WRONLY | O_TRUNC, 0664);
+	to = open(argv[2], O_CREAT | O_WRONLY | O_TRUNC | O_APPEND, 0664);
 
 	if (from == -1 || r == -1)
 	{
@@ -52,7 +52,7 @@ int main(int argc, char *argv[])
 			exit(99);
 		}
 		r = read(from, buffer, 1024);
-		to = open(argv[2], O_WRONLY | O_APPEND);
+		/*to = open(argv[2], O_WRONLY | O_APPEND);*/
 	}
 	close_file(from);
 	close_file(to);
