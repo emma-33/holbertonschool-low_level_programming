@@ -8,7 +8,7 @@ void close_file(int file)
 {
 	if (close(file) == -1)
 	{
-		dprintf(STDERR_FILENO, "Error: Can't close file %d\n", file);
+		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", file);
 		exit(100);
 	}
 }
