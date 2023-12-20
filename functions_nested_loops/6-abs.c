@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * _abs - Entry point,computes the absolute variable of n
- * @a: character to compute
- *
- * Return: 0
- */
+* _abs - computes the absolute variable of n
+* @a: character to compute
+*
+* Return: absolute value of a
+*/
 
 int _abs(int a)
 {
@@ -18,5 +18,4 @@ int _abs(int a)
 	{
 		return (-a);
 	}
-
 }

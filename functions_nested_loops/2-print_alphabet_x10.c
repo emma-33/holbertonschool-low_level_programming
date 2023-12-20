@@ -1,11 +1,8 @@
 #include "main.h"
 
 /**
- * print_alphabet_x10 - Entry point, prints the
- * alphabet 10 times with a new line
- *
- * Return: 0
- */
+* print_alphabet_x10 - prints the alphabet 10 times with a new line
+*/
 
 void print_alphabet_x10(void)
 {
@@ -23,5 +20,4 @@ void print_alphabet_x10(void)
 		_putchar('\n');
 		i++;
 	}
-
 }

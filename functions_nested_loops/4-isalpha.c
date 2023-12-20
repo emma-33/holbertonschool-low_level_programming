@@ -1,12 +1,11 @@
 #include "main.h"
 
 /**
- * _isalpha - Entry point,checks for alphabetic
- * character
- * @c: character to check
- *
- * Return: 1 if c is a letter else 0
- */
+* _isalpha - checks for alphabetic character
+* @c: character to check
+*
+* Return: 1 if c is a letter else 0
+*/
 
 int _isalpha(int c)
 {
@@ -19,6 +18,4 @@ int _isalpha(int c)
 	{
 		return (0);
 	}
-
-
 }
