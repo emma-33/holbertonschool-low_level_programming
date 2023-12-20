@@ -5,5 +5,5 @@ Function 3 : adds a new node at the end of the list
 Function 4 : frees the list  
 Function 5 : returns the nth node of the list  
 Function 6 : returns the sum of all the data of the list  
-Function 7 : returns the number of elements in the list  
+Function 7 : inserts a new node at a given position    
 Function 8 : deletes the node at index index of the list  
